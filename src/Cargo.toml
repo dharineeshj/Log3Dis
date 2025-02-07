@@ -1,0 +1,13 @@
+[package]
+name = "your_project_name"
+version = "0.1.0"
+edition = "2021"  # Change this to 2018 or 2021
+
+[dependencies]
+serenity = "0.12"
+
+rdev = "0.5"
+tokio = {version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+device_query = "2.1.0"
+once_cell = {version= "1.20.0"}
+
